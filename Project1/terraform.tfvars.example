@@ -1,0 +1,16 @@
+project_id         = "YOUR_GCP_PROJECT_ID"
+domain_name        = "example.com"
+region_1            = "us-central1"
+region_2            = "us-east1"
+subnet_1_cidr       = "10.10.0.0/20"
+subnet_2_cidr       = "10.20.0.0/20"
+dns_zone_name       = "project1-public-zone"
+bucket_name_prefix  = "project1-static-site"
+enable_cdn          = true
+enable_cloud_nat    = false
+
+labels = {
+  project     = "project1"
+  environment = "lab"
+  managed_by  = "terraform"
+}

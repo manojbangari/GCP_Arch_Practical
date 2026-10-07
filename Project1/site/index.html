@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 1 | Google Cloud</title>
+  <style>
+    body { margin:0; font-family:Arial,sans-serif; background:#f8fafc; color:#172033; }
+    .wrap { max-width:900px; margin:80px auto; padding:24px; }
+    .card { background:white; border-radius:18px; padding:42px; box-shadow:0 10px 35px rgba(0,0,0,.08); }
+    h1 { margin-top:0; }
+    code { background:#eef2ff; padding:4px 7px; border-radius:6px; }
+    li { margin:12px 0; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Project 1 — Google Cloud Static Website</h1>
+      <p>This page is served from <strong>Cloud Storage</strong> through a <strong>global external Application Load Balancer</strong>.</p>
+      <ul>
+        <li>Cloud DNS → Global Load Balancer</li>
+        <li>HTTPS with Google-managed SSL certificate</li>
+        <li>Cloud CDN enabled on the backend bucket</li>
+        <li>Custom VPC with regional subnets in two regions</li>
+        <li>Infrastructure managed completely with Terraform</li>
+      </ul>
+      <p>Deployment status: <code>Terraform managed</code></p>
+    </section>
+  </main>
+</body>
+</html>
